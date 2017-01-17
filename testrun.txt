@@ -1,0 +1,56 @@
+⚡ ./w4118_sh
+$/bin/ls
+README.md   answers.md  checkpatch.pl   makefile    shell.c     w4118_sh
+$/bin/ls -lah
+total 512
+drwxr-xr-x@  9 kronosapiens  staff   306B Sep 20 00:03 .
+drwxr-xr-x@  4 kronosapiens  staff   136B Sep 16 15:27 ..
+drwxr-xr-x@ 15 kronosapiens  staff   510B Sep 20 00:03 .git
+-rw-r--r--@  1 kronosapiens  staff   1.4K Sep 19 23:51 README.md
+-rw-r--r--@  1 kronosapiens  staff   3.7K Sep 19 22:49 answers.md
+-rwxrw-rw-@  1 kronosapiens  staff   216K Sep 19 09:07 checkpatch.pl
+-rw-r--r--@  1 kronosapiens  staff    84B Sep 19 21:00 makefile
+-rw-r--r--@  1 kronosapiens  staff   5.2K Sep 19 23:51 shell.c
+-rwxr-xr-x@  1 kronosapiens  staff    14K Sep 20 00:03 w4118_sh
+$cd ..
+$/bin/ls -lah
+total 0
+drwxr-xr-x@  4 kronosapiens  staff   136B Sep 16 15:27 .
+drwxr-xr-x@  4 kronosapiens  staff   136B Sep 16 15:34 ..
+drwxr-xr-x@  9 kronosapiens  staff   306B Sep 20 00:03 hmwk1-kronosapiens
+drwxr-xr-x@ 12 kronosapiens  staff   408B Sep 18 16:01 tester-hmwk1
+$history
+0 /bin/ls
+1 /bin/ls -lah
+2 cd ..
+3 /bin/ls -lah
+$history 1
+total 0
+drwxr-xr-x@  4 kronosapiens  staff   136B Sep 16 15:27 .
+drwxr-xr-x@  4 kronosapiens  staff   136B Sep 16 15:34 ..
+drwxr-xr-x@  9 kronosapiens  staff   306B Sep 20 00:03 hmwk1-kronosapiens
+drwxr-xr-x@ 12 kronosapiens  staff   408B Sep 18 16:01 tester-hmwk1
+$history 2
+$/bin/ls -lah
+total 0
+drwxr-xr-x@ 4 kronosapiens  staff   136B Sep 16 15:34 .
+drwxr-xr-x@ 6 kronosapiens  staff   204B Sep 16 15:27 ..
+drwxr-xr-x@ 4 kronosapiens  staff   136B Sep 16 15:27 hw1
+drwxr-xr-x@ 5 kronosapiens  staff   170B Sep 16 15:33 test
+$/bin/pwd
+/Users/kronosapiens/Dropbox/Documents/Columbia/2016Fa/COMS W4118/hw
+$history
+0 /bin/ls
+1 /bin/ls -lah
+2 cd ..
+3 /bin/ls -lah
+4 /bin/ls -lah
+5 /bin/pwd
+$history -c
+$history
+$/bin/ls -lah | /bin/grep README
+error: No such file or directory
+$/bin/ls -lah /usr/bin/grep README
+ls: README: No such file or directory
+-rwxr-xr-x  1 root  wheel    33K Mar 12  2016 /usr/bin/grep
+$exit
